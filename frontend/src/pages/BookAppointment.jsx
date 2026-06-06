@@ -65,7 +65,7 @@ export default function BookAppointment() {
       <section className="gradient-bg py-16 md:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-white/80 font-semibold text-sm uppercase tracking-wider">Book Now</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mt-3">Book an Appointment</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-3">Book an Appointment</h1>
           <p className="text-white/70 mt-4 text-lg">
             Schedule your visit with our expert doctors in just a few clicks.
           </p>
@@ -91,7 +91,7 @@ export default function BookAppointment() {
             ))}
           </div>
 
-          <div className="card p-8 md:p-10">
+          <div className="card p-5 sm:p-8 md:p-10">
             {step === 1 && (
               <div className="space-y-6">
                 <h2 className="text-xl font-bold text-gray-900">Select Doctor & Service</h2>
@@ -143,7 +143,7 @@ export default function BookAppointment() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2 flex items-center gap-2"><FiClock /> Time Slot</label>
-                  <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+                  <div className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 gap-2">
                     {timeSlots.map((slot) => (
                       <button
                         key={slot}

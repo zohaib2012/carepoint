@@ -55,7 +55,7 @@ export default function AdminAppointments() {
       ) : (
         <div className="card overflow-hidden">
           <div className="overflow-x-auto">
-            <table className="w-full text-sm">
+            <div class="overflow-x-auto -mx-4 sm:mx-0"><div class="min-w-[640px] sm:min-w-0"><table className="w-full text-sm">
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-100">
                   <th className="text-left p-4 font-semibold text-gray-600">Patient</th>
@@ -95,7 +95,7 @@ export default function AdminAppointments() {
                   </tr>
                 ))}
               </tbody>
-            </table>
+            </table></div></div>
           </div>
         </div>
       )}

@@ -38,7 +38,7 @@ export default function Login() {
             </div>
             <span className="text-xl font-bold text-gray-900">Care<span className="gradient-text">Point</span></span>
           </Link>
-          <div className="card-premium p-8 md:p-10 animate-slideUp">
+          <div className="card-premium p-6 sm:p-8 md:p-10 animate-slideUp">
             <h2 className="text-2xl font-bold text-gray-900 text-center">Welcome Back</h2>
             <p className="text-gray-500 text-sm text-center mt-2">Sign in to your account to continue</p>
             <form onSubmit={handleSubmit} className="mt-8 space-y-5">

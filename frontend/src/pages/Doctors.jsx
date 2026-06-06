@@ -20,7 +20,7 @@ export default function Doctors() {
 
   return (
     <>
-      <section className="gradient-bg py-28 md:py-36 relative overflow-hidden">
+      <section className="gradient-bg py-20 sm:py-28 md:py-36 relative overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute top-10 left-10 w-72 h-72 bg-white/5 rounded-full blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-72 h-72 bg-white/5 rounded-full blur-3xl"></div>

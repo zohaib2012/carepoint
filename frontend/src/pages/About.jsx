@@ -11,7 +11,7 @@ const timeline = [
 export default function About() {
   return (
     <>
-      <section className="gradient-bg py-20 md:py-28">
+      <section className="gradient-bg py-16 sm:py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-white/80 font-semibold text-sm uppercase tracking-wider">About Us</span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mt-3">Our Story</h1>

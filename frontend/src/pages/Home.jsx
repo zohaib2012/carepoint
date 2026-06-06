@@ -57,14 +57,14 @@ export default function Home() {
           <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-200/20 rounded-full blur-3xl"></div>
           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-primary-300/20 rounded-full blur-3xl"></div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40 relative w-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-28 md:py-40 relative w-full">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="animate-slideUp">
               <div className="inline-flex items-center gap-2 bg-primary-100/80 text-primary-700 px-4 py-2 rounded-full text-sm font-medium mb-6 backdrop-blur-sm border border-primary-200/50">
                 <span className="w-2 h-2 bg-primary-500 rounded-full animate-pulse-soft"></span>
                 Your Health Matters to Us
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 leading-[1.1] tracking-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 leading-[1.1] tracking-tight">
                 Your Health,{' '}
                 <span className="gradient-text">Our Priority</span>
               </h1>
@@ -136,7 +136,7 @@ export default function Home() {
       </section>
 
       {/* ===== STATS ===== */}
-      <section className="py-16 md:py-20 bg-white relative">
+      <section className="py-12 sm:py-16 md:py-20 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {stats.map((stat, i) => (
@@ -154,7 +154,7 @@ export default function Home() {
       </section>
 
       {/* ===== SERVICES ===== */}
-      <section className="py-20 md:py-28 relative">
+      <section className="py-16 sm:py-20 md:py-28 relative">
         <div className="absolute inset-0 gradient-bg-subtle"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
@@ -182,7 +182,7 @@ export default function Home() {
       </section>
 
       {/* ===== WHY CHOOSE US ===== */}
-      <section className="py-20 md:py-28 gradient-bg relative overflow-hidden">
+      <section className="py-16 sm:py-20 md:py-28 gradient-bg relative overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute top-10 left-10 w-60 h-60 bg-white/5 rounded-full blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-60 h-60 bg-white/5 rounded-full blur-3xl"></div>
@@ -212,7 +212,7 @@ export default function Home() {
       </section>
 
       {/* ===== TEAM ===== */}
-      <section className="py-20 md:py-28">
+      <section className="py-16 sm:py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="badge-primary">Our Team</span>
@@ -277,7 +277,7 @@ export default function Home() {
       </section>
 
       {/* ===== BLOG PREVIEW ===== */}
-      <section className="py-20 md:py-28">
+      <section className="py-16 sm:py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="badge-primary">Health Blog</span>

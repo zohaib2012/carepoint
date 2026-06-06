@@ -41,7 +41,7 @@ export default function AdminUsers() {
       <h1 className="text-2xl font-bold text-gray-900 mb-6">Users Management</h1>
       <div className="card overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="w-full text-sm">
+          <div class="overflow-x-auto -mx-4 sm:mx-0"><div class="min-w-[640px] sm:min-w-0"><table className="w-full text-sm">
             <thead>
               <tr className="bg-gray-50 border-b border-gray-100">
                 <th className="text-left p-4 font-semibold text-gray-600">User</th>
@@ -81,7 +81,7 @@ export default function AdminUsers() {
                 </tr>
               ))}
             </tbody>
-          </table>
+          </table></div></div>
         </div>
         {users.length === 0 && <div className="p-12 text-center text-gray-400">No users found</div>}
       </div>
